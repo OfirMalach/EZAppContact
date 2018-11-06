@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char LTAppContactVersionString[];
 
 #import <EasyContact/EasyContactMail.h>
 
+///

@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C6D04F26219200CB00D03775 /* LTAppContact.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D04F24219200CB00D03775 /* LTAppContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6D04F2F219200E400D03775 /* EasyContact.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C6D04F2C219200E400D03775 /* EasyContact.bundle */; };
+		C6D04F30219200E400D03775 /* EasyContactMail.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D04F2D219200E400D03775 /* EasyContactMail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6D04F31219200E400D03775 /* EasyContactMail.m in Sources */ = {isa = PBXBuildFile; fileRef = C6D04F2E219200E400D03775 /* EasyContactMail.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6D04F21219200CB00D03775 /* LTAppContact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTAppContact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D04F24219200CB00D03775 /* LTAppContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppContact.h; sourceTree = "<group>"; };
 		C6D04F25219200CB00D03775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D04F2C219200E400D03775 /* EasyContact.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyContact.bundle; sourceTree = "<group>"; };
+		C6D04F2D219200E400D03775 /* EasyContactMail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyContactMail.h; sourceTree = "<group>"; };
+		C6D04F2E219200E400D03775 /* EasyContactMail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyContactMail.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				C6D04F24219200CB00D03775 /* LTAppContact.h */,
+				C6D04F2D219200E400D03775 /* EasyContactMail.h */,
+				C6D04F2E219200E400D03775 /* EasyContactMail.m */,
+				C6D04F2C219200E400D03775 /* EasyContact.bundle */,
 				C6D04F25219200CB00D03775 /* Info.plist */,
 			);
 			path = LTAppContact;
@@ -59,6 +68,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D04F30219200E400D03775 /* EasyContactMail.h in Headers */,
 				C6D04F26219200CB00D03775 /* LTAppContact.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D04F2F219200E400D03775 /* EasyContact.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D04F31219200E400D03775 /* EasyContactMail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

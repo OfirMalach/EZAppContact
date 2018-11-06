@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char LTAppContactVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LTAppContact/PublicHeader.h>
 
+#import <EasyContact/EasyContactMail.h>
 
